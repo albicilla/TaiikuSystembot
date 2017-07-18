@@ -1,5 +1,4 @@
-# CoCbot
-CoC(coll of cthulhu) で役立てたいline bot
+# TaiikuSystembot
 
 Heroku + Django
 SFC体育システムの予約状況確認ができるlinebot
