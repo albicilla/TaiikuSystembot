@@ -25,7 +25,7 @@ SECRET_KEY = 'g0ex6g2s&3c-@i6+sgc(ru-bi%rox700u5fygxv5c$ur&!9oii'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'arcane-inlet-88190.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', u'arcane-inlet-88190.herokuapp.com']
 
 
 # Application definition
