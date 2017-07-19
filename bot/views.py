@@ -31,7 +31,7 @@ import re
 import requests
 
 REPLY_ENDPOINT = 'https://api.line.me/v2/bot/message/reply'
-ACCESS_TOKEN = 'cf6MkYQIETJ7+jKqHJxVXDqOjHAGrTNfALgyds2qfY3HIslXGQ7GSAGJpALAa2TAZnLNT6u885N6P6w2BB2Qj1EQpdoiQjut0IVAWBlTOikyJwBbnYeAnRj9po9bwmCTJKH/ciE0bAJ+8PbtAOtERAdB04t89/1O/w1cDnyilFU='
+ACCESS_TOKEN = '94cHxQ5/qOuUS2WbyCDvI+JTb97CKGV24IC6nB3PRrvK85u4INKsY1MCZ6PC3VwzeLHswQgdZQYeNlFPUp4R6PJU+uJXYyrqt71l+L/Gd8aZQ1HZ6Jkrt7px6qzxpW9+xT6+RF2TJtKPDSdTGf4y7QdB04t89/1O/w1cDnyilFU='
 HEADER = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + ACCESS_TOKEN
