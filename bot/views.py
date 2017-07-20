@@ -325,7 +325,7 @@ def reply_text(reply_token, text):
     elif text=="command":
         reply+="show　予約可能授業を表示\nattend 出席状況を表示\nregi ID IDの授業の予約\nremove 予約の取り消し"
     else:
-        reply = random.choice(osomatsu_serif)
+        reply = "適切なコマンドを入力してください (大文字小文字区別)コマンドを確認するには　'command' (クオーテーション除く)を入力してください"
 
     payload = {
           "replyToken":reply_token,
