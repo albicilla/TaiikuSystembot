@@ -1,6 +1,6 @@
 [config]
-name=t16203to
-password=uniShaiaku0.5100
+name=name
+password=password
 TelUser=08012345678
 TelEmergency=09055556666
 GoHomeTime=17:00
