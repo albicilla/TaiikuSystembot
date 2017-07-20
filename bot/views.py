@@ -322,7 +322,8 @@ def reply_text(reply_token, text):
         reply = res_error
 
 
-
+    elif text=="command":
+        reply+="show　予約可能授業を表示\nattend 出席状況を表示\nregi ID IDの授業の予約\nremove 予約の取り消し"
     else:
         reply = random.choice(osomatsu_serif)
 
