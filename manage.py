@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "osomatsu_bot.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "taiikuSystembot.settings")
 
     messe = os.getcwd()
     print ("LLLLLLLLL")

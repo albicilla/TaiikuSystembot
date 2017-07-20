@@ -1,5 +1,5 @@
 """
-WSGI config for osomatsu_bot project.
+WSGI config for taiikuSystembot project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "osomatsu_bot.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "taiikuSystembot.settings")
 
 application = get_wsgi_application()

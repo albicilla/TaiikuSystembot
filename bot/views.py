@@ -8,12 +8,11 @@ from django.http import HttpResponse
 
 # localで実行するときは以下三行のコメントアウトをはずす
 import sys
-path="/Users/albicilla/programming/osoBOT/osomatsu_bot/bot/"
+path="/Users/albicilla/programming/osoBOT/taiikuSystembot/bot/"
 sys.path.append(path)
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-from load_serif import osomatsu_serif  # 先ほどのおそ松のセリフ一覧をimport
 import re #正規表現
 
 
@@ -321,9 +320,8 @@ def reply_text(reply_token, text):
 
         reply = res_error
 
-
     elif text=="command":
-        reply+="show　予約可能授業を表示\nattend 出席状況を表示\nregi ID IDの授業の予約\nremove 予約の取り消し\n check 現在の予約状況の確認"
+        reply+="show　予約可能授業を表示\nattend 出席状況を表示\nregi ID IDの授業の予約\nremove 予約の取り消し\ncheck 現在の予約状況の確認"
     else:
         reply = "適切なコマンドを入力してください (大文字小文字区別)コマンドを確認するには　'command' (クオーテーション除く)を入力してください"
 
