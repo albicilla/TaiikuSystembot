@@ -26,11 +26,11 @@ QRコードで友達登録する。
 
 
 使い方
-command と打つとコマンド一覧が取得できる。
-check 現在の自分の予約状況の確認
-attend 出席状況の取得
-show 現在の予約状況の確認
-regi [ID] showで表示されたIDに対応した授業を予約
-remove 予約を削除 キュー
+* command と打つとコマンド一覧が取得できる。
+* check 現在の自分の予約状況の確認
+* attend 出席状況の取得
+* show 現在の予約状況の確認
+* regi [ID] showで表示されたIDに対応した授業を予約
+* remove 予約を削除 キュー
 
 参考<http://qiita.com/yakan10/items/b7ad35c2cbba5db81462#_reference-cfc6654b05d0a7de3e40>
