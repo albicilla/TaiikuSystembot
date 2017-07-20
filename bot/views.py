@@ -323,7 +323,7 @@ def reply_text(reply_token, text):
 
 
     elif text=="command":
-        reply+="show　予約可能授業を表示\nattend 出席状況を表示\nregi ID IDの授業の予約\nremove 予約の取り消し"
+        reply+="show　予約可能授業を表示\nattend 出席状況を表示\nregi ID IDの授業の予約\nremove 予約の取り消し\n check 現在の予約状況の確認"
     else:
         reply = "適切なコマンドを入力してください (大文字小文字区別)コマンドを確認するには　'command' (クオーテーション除く)を入力してください"
 
