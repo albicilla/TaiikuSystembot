@@ -10,9 +10,9 @@ password=パスワード
 
 を入力。
 
-''$heroku create''
+`$heroku create`
 
-$git push heroku master
+`$git push heroku master`
 
 heroku createで作られたurlをコピーしておく。
 
