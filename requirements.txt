@@ -3,7 +3,7 @@ beautifulsoup4==4.6.0
 bs4==0.0.1
 certifi==2017.4.17
 chardet==3.0.4
-Django==1.11.3
+Django==1.11.28
 future==0.16.0
 html5lib==0.999999999
 idna==2.5
